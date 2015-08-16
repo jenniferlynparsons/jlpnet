@@ -1,0 +1,108 @@
+// ==========================================================================
+// Mobile Custom Styles
+// ==========================================================================
+@specialfontnormal: 'Marvel', sans-serif;
+body{
+	background: url("../img/low-poly2.png") transparent fixed no-repeat;
+	background-size: 100% 100%;
+
+	.clear{clear:both;}
+
+	.mar-bot-20{
+		margin-bottom:20px;
+	}
+
+	.mar-bot-40{
+		margin-bottom:40px;
+	}
+
+	.pad-bot-20{
+		padding-bottom:20px;
+	}
+
+	.main-wrap{
+		width: 100%;
+		background: @base-background-color;
+	}
+
+	h1, h2, h3{
+		font-family: @specialfontnormal;
+	}
+
+	h1{
+		padding: 20px;
+		border: 1px solid;
+		color:@base-background-color;
+		.font-size(48);
+		span{
+			.font-size(24);
+		}
+	}
+
+	h2{
+		.font-size(30);
+		border: 1px solid;
+		display: inline-block;
+		padding: 20px;
+	}
+
+	h3{
+		.font-size(24);
+	}
+
+	.social{
+		padding:10px 0;
+		margin-top:0;
+		li ~ li{
+			margin-left: 10px;
+			&:before{
+				content:"\16C3";
+				margin-right: 10px;
+			}
+		}
+	}
+
+	.button{
+		border: none;
+		background-color: @base-link-color;
+		line-height: normal;
+		padding: .5em 1em;
+		text-decoration: none;
+		color: @base-background-color;
+		display: inline-block;
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		transition: all 0.3s;
+	}
+
+	#intro{
+		color:@base-background-color;
+	}
+
+	.expertise-list{
+		border: 1px solid #fff;
+		background-color: rgba(255,255,255,0.7);
+	}
+
+	.location{
+		.font-size(18);
+	}
+
+	#about, #built{
+		h2, h3,p,li,span,label{
+			color:@base-background-color;
+		}
+	}
+
+	#built{
+		.button{
+			margin-bottom: 5px;
+		}
+		h4{
+			color:@base-background-color;
+			margin-top:.25em;
+		}
+	}
+
+}
+
