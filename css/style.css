@@ -1125,10 +1125,13 @@ input::-moz-focus-inner {
 }
 body {
   background: url("../img/low-poly2.png") transparent fixed no-repeat;
-  background-size: 100% 100%;
+  background-size: auto 100%;
 }
 body .clear {
   clear: both;
+}
+body .mar-bot-10 {
+  margin-bottom: 10px;
 }
 body .mar-bot-20 {
   margin-bottom: 20px;
@@ -1178,7 +1181,7 @@ body .social li ~ li {
   margin-left: 10px;
 }
 body .social li ~ li:before {
-  content: "\16C3";
+  content: "\2022";
   margin-right: 10px;
 }
 body .button {
@@ -1228,7 +1231,21 @@ body #built h4 {
   color: #ffffff;
   margin-top: .25em;
 }
+@media only screen and (min-width: 740px) {
+  body #work .job-title:after {
+    content: "\007C";
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
 @media only screen and (min-width: 980px) {
+  body {
+    background-size: 100% 100%;
+  }
+  body .social li ~ li:before {
+    content: "\16C3";
+    margin-right: 10px;
+  }
   body #intro {
     height: 400px;
     padding: 50px 0;
