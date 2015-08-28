@@ -1193,6 +1193,9 @@ body .button {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+body .button:hover {
+  color: #585858;
+}
 body #intro {
   color: #ffffff;
 }
@@ -1229,6 +1232,9 @@ body #built h4 {
   body #intro {
     height: 400px;
     padding: 50px 0;
+  }
+  body #work ul {
+    margin-top: 0;
   }
 }
 .no-margin {
