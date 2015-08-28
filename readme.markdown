@@ -7,5 +7,4 @@ Built on the [Base framework](http://getbase.org).
 - add work descriptions
 - fix form label padding
 - add favicon
-- 
 - final testing
