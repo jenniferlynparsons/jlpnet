@@ -1,4 +1,4 @@
-# Jennifer Lyn Parsons portfolio site 2015
+# Jennifer Lyn Parsons portfolio site
 
 Built on the [Base framework](http://getbase.org).
 
