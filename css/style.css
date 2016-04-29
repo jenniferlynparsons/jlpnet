@@ -1195,7 +1195,6 @@ body .button {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
-  margin-bottom: 10px;
 }
 body .button:hover {
   color: #585858;
