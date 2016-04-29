@@ -1195,6 +1195,7 @@ body .button {
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
+  margin-bottom: 10px;
 }
 body .button:hover {
   color: #585858;
@@ -1210,26 +1211,9 @@ body .location {
   font-size: 18px;
   font-size: 1.125rem;
 }
-body #about h2,
-body #built h2,
-body #about h3,
-body #built h3,
-body #about p,
-body #built p,
-body #about li,
-body #built li,
-body #about span,
-body #built span,
-body #about label,
-body #built label {
-  color: #ffffff;
-}
-body #built .button {
-  margin-bottom: 5px;
-}
-body #built h4 {
-  color: #ffffff;
-  margin-top: .25em;
+body input,
+body textarea {
+  border: 1px solid #ddd;
 }
 @media only screen and (min-width: 740px) {
   body #work .job-title:after {
