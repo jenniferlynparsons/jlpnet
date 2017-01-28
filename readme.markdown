@@ -1,10 +1,3 @@
 # Jennifer Lyn Parsons portfolio site
 
-Built on the [Base framework](http://getbase.org).
-
-## To do
-
-- add work descriptions
-- fix form label padding
-- add favicon
-- final testing
+Custom site built on the [Base framework](http://getbase.org).
